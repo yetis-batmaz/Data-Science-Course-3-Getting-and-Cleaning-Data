@@ -1,16 +1,8 @@
-# Data-Science-Course-3-Getting-and-Cleaning-Data
-The script run_analysis.R uses the data.table package for renaming column and reading in files. It includes 5 steps:
+This project is about collecting and cleaning data. The goal is to prepare a tidy dataset.
+The data can be download with the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The description of the data can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-1.Merges the training and the test sets to create one data set. The x_data.txt, y_data.txt, subject_data.txt should be binded by row, afterwards all three of them are binded by column.
-
-2.Extracts only the measures on the mean and standard deviation. For the column of x_data.txt, extract only the ones that have mean() or std() in their names.
-
-3.Here the descriptive activity names are used to name the activities in the data set. Match each number in the y_data column with activity_labels.txt.
-
-4.Labels the data set with descriptive variable names. Rename the column of y_data and subject_data.
-
-5.Creates a  independent tidy data set with the average of each variable for each activity and each subject.
-Write out the tidy dataset to tidydata.txt.
-
-
-Our TidyData contains 180 observations and 68 variables.
+--Files--
+run_analysis.R contains all the coding for doing the project
+CodeBook.md. describes the variables, the data, and the steps that were required for getting the tidy dataset.
+tidydata.txt is a text file generated from run_analysis.R
